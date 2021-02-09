@@ -10,3 +10,7 @@
     - [x] private / public
     - [x] go run / go build
   
+### Session 2
+- [x] Database
+- [x] Model
+- [x] Go module
