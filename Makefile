@@ -1,5 +1,5 @@
-run:
-	go run .
+.PHONY: deploy
 
-build:
-	go build $1
+deploy:
+	$(MAKE) -C bff build
+	$(MAKE) -C deploy apply

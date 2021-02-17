@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 	"log"
-	"theo.dev/hello-universe/database"
-	"theo.dev/hello-universe/model"
-	"theo.dev/hello-universe/model/PerformanceResult"
-	"theo.dev/hello-universe/pagespeed"
+	"theo.dev/hello-universe/speedtester/database"
+	"theo.dev/hello-universe/speedtester/model"
+	"theo.dev/hello-universe/speedtester/model/PerformanceResult"
+	"theo.dev/hello-universe/speedtester/pagespeed"
 )
 
 func main() {

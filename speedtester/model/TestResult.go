@@ -1,7 +1,7 @@
 package model
 
 import (
-	"theo.dev/hello-universe/model/PerformanceResult"
+	"theo.dev/hello-universe/speedtester/model/PerformanceResult"
 )
 
 type TestResult struct {

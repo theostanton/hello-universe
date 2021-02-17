@@ -1,3 +1,13 @@
 response.json
 .idea
 hello-universe
+dist
+
+
+# Terraform
+**/.terraform/*
+
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars

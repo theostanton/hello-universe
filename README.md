@@ -14,3 +14,11 @@
 - [x] Database
 - [x] Model
 - [x] Go module
+
+### Session 3 
+- [x] Restructure project
+- [x] Terraform
+    - [x] Variables / Outputs
+    - [x] Apply / diff
+    - [x] Deploy simple S3 bucket
+    - [x] Deploy Lambda + API Gateway

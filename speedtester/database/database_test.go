@@ -2,8 +2,8 @@ package database
 
 import (
 	"testing"
-	"theo.dev/hello-universe/model"
-	"theo.dev/hello-universe/model/PerformanceResult"
+	"theo.dev/hello-universe/speedtester/model"
+	"theo.dev/hello-universe/speedtester/model/PerformanceResult"
 )
 
 type args struct {

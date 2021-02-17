@@ -3,8 +3,8 @@ package database
 import (
 	"context"
 	"github.com/jackc/pgx/v4"
-	"theo.dev/hello-universe/model"
-	"theo.dev/hello-universe/model/PerformanceResult"
+	"theo.dev/hello-universe/speedtester/model"
+	"theo.dev/hello-universe/speedtester/model/PerformanceResult"
 )
 
 const databaseUrl = ""

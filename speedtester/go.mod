@@ -1,4 +1,4 @@
-module theo.dev/hello-universe
+module theo.dev/hello-universe/speedtester
 
 go 1.15
 

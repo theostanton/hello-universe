@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"theo.dev/hello-universe/speedtester/model/PerformanceResult"
 )
 
 const pageSpeedUrl = "https://www.googleapis.com/pagespeedonline/v5/runPagespeed"
@@ -16,7 +17,7 @@ type Body struct {
 	} `json:"loadingExperience"`
 }
 
-func TestSpeedOfAUrl(siteUrl string) (string, error) {
+func TestSpeedOfAUrl(siteUrl string) (PerformanceResult.PerformanceResult, error) {
 
 	url := fmt.Sprintf("%s?url=%s", pageSpeedUrl, siteUrl)
 
@@ -51,5 +52,5 @@ func TestSpeedOfAUrl(siteUrl string) (string, error) {
 		return "", err
 	}
 
-	return body.LoadingExperience.OverallCategory, nil
+	return PerformanceResult.PerformanceResult(body.LoadingExperience.OverallCategory), nil
 }
